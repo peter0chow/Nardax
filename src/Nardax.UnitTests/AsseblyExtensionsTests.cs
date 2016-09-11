@@ -9,9 +9,7 @@ namespace Nardax.Tests
     {
         [TestMethod]
         public void GetAppSettingsValue_ValidKey_ReturnsValue()
-        {
-            var validKey = "ValidKey";
-            var expectedAppSettingVlaue = "SomeValue";
+       zzzzzzzzzzzzzzzzzzzz
 
             var assembly = Assembly.GetExecutingAssembly();
             var actualAppSettingValue = assembly.GetAppSettingsValue(validKey);
