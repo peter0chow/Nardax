@@ -7,12 +7,7 @@ namespace Nardax.Tests
     [TestClass]
     public class DateTimeExtensionsTests
     {
-        private DateTime _date;
-
-        [TestInitialize]
-        public void TestInitialize()
-        {
-            _date = new DateTime(1974, 7, 3);
+        4, 7, 3);
         }
 
         [TestMethod]
