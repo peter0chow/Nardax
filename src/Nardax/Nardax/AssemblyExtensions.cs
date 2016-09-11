@@ -3,10 +3,13 @@ using System.Configuration;
 using System.Reflection;
 
 // Hello world
+
 namespace Nardax
 {
     public static class AssemblyExtensions
     {
+        // Hitta AppSettings-värden utifrån Assembly
+
         public static string GetAppSettingsValue(this Assembly assembly, string key)
         {
             var configuration = ConfigurationManager.OpenExeConfiguration(assembly.Location);
